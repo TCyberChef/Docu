@@ -1,0 +1,309 @@
+Installation of FatRat Tool:
+ 
+
+Step 1: Open Your Kali Linux and move to the Desktop directory.
+
+ 
+
+
+
+cd Desktop 
+Installation of TheFatRat Tool in KALI LINUX.
+
+ 
+
+Step 2: Now on desktop create a new Directory named fatrat.
+
+ 
+
+mkdir fatrat
+Installation of TheFatRat Tool in KALI LINUX.
+
+ 
+
+Step 3: Now move to fatrat directory.
+
+ 
+
+cd fatrat
+Installation of TheFatRat Tool in KALI LINUX.
+
+ 
+
+Step 4: Now you have to download the fatrat tool from GitHub to do that you have to clone it from GitHub. Just clone the tool using the following command.
+
+ 
+
+git clone https://github.com/Screetsec/TheFatRat.git
+Installation of TheFatRat Tool in KALI LINUX.
+
+ 
+
+Step 5: The TheFatRat tool has been downloaded into your Kali Linux now move to the directory where you have downloaded the tool and list out the content.
+
+ 
+
+cd TheFatRat
+ls
+Installation of TheFatRat Tool in KALI LINUX.
+
+ 
+
+Step 6: Now you have to give the permission of execution to the setup.sh using the following command.
+
+ 
+
+chmod +x setup.sh
+
+
+ 
+
+Step 7: Now run the tool using the following command.
+
+ 
+
+./setup.sh
+Installation of TheFatRat Tool in KALI LINUX.
+
+Working with TheFatRat Tool :
+Example 1: Create Backdoor with msfvenom.
+ 
+
+We are Creating a Backdoor using msfvenom utility. So we have chosen Option 1.
+
+ 
+
+
+
+ 
+
+2. Backdoors can be of various extensions like .elf,.bat,.php,.asp etc. So in this example, we are selection option 5 which is .php Backdoor.
+
+ 
+
+
+
+ 
+
+In the below screenshot, you can see that our payload.php is ready and saved in a specific path. Now to perform an attack you can send this payload to the victim and ask him to execute it.
+
+ 
+
+
+
+ 
+
+In the below Screenshot, you can see that we have displayed the contents or the coding of payload.php, in which LHOST and Port Number is specified.
+
+ 
+
+
+
+Example 2: Create Fud 100% Backdoor with Fudwin 1.0.
+ 
+
+We will Create Fud Backdoor using Fudwin 1.0. So we have selected Option 2 from the menu.
+
+ 
+
+
+
+ 
+
+In the below Screenshot, you can see that there are 2 primary options.
+
+ 
+
+ 
+
+Powerstager 0.2.5
+
+ 
+
+Slow but Powerful
+
+ 
+
+ 
+
+So we have selected option 1 which seems to be NEW.
+
+ 
+
+
+
+ 
+
+In the below Screenshot, we have to specify the name of our payload and the Architecture of our Target System, so in this example we have selected 64Bit (XP64,Vista,7,8,10).
+
+ 
+
+
+
+ 
+
+Now, we have to select the icon name in which payload will hide. So we have selected excel.ico.
+
+ 
+
+
+
+Example 3: Create Fud Backdoor with Avoid v1.2
+ 
+
+We will be Creating a backdoor with Avoid Utility.
+
+ 
+
+
+
+ 
+
+We are specifying backdoor name which is backdoor.exe
+
+ 
+
+
+
+ 
+
+We have to select the strength or the size of the payload so in this example we have selected Normal payload stealth.
+
+ 
+
+
+Selecting Payload Stealth
+
+ 
+
+In the below Screenshot , you can see that our Payload is successfully created with the name backdoor.exe in the specified path.
+
+ 
+
+
+
+Example 4: Create Fud Backdoor 1000% with PwnWinds [Excellent]
+ 
+
+We will create backdoor using PwnWinds Utility which is more powerful among others.
+
+ 
+
+
+
+ 
+
+You can see that there is the various option of backdoor type, so in this example, we are creating a .bat extension payload which is a batch script in Windows Target.
+
+ 
+
+
+
+ 
+
+Now, we are specifying the name for the payload and selecting the purpose of the payload. So in this case the payload is designed to give reverse tcp connection to the attacker.
+
+ 
+
+
+
+ 
+
+You can see that, our payload is created and saved in the specified path.
+
+ 
+
+
+
+Example 5: Trojan Debian Package For Remote Access [Trodebi]
+ 
+
+We are Creating Trojan Package for Remote Access.
+
+ 
+
+
+
+ 
+
+In the below Screenshot, we have specified the name of the Trojan and the path of the Debian package in which Trojan will be merged or hide. So in this case we have selected the google_chrome Debian package.
+
+ 
+
+
+
+ 
+
+In the below Screenshot, we are specifying the purpose of the Trojan, so in this example, we have selected shell_reverse_tcp connection.
+
+ 
+
+
+
+ 
+
+In the below Screenshot, you can see that our Trojan have integrated with the .deb package and stored in the specified path.
+
+ 
+
+
+
+Example 6: Searchsploit
+ 
+
+We will be using the SearchSploit option which consists of a list of databases of various payloads and backdoors for every type of target.
+
+ 
+
+
+
+ 
+
+In the below Screenshot, Tool is asking us about our Target. So we have given Windows 10 as our target.
+
+ 
+
+
+
+ 
+
+You can see that TheFatRat tool has returned us a number of payloads and backdoors for our Windows 10 Target.
+
+ 
+
+
+
+Example 7: File Pumper [Increase Your Files Size]
+ 
+
+We will be increasing the size of our payload to make it more stealth.
+
+ 
+
+
+
+ 
+
+In the below Screenshot, we have selected the backdoor for which we need to increase the size. Also we need to select the size in mb or kb. So we have selected size in mb.
+
+ 
+
+
+
+ 
+
+In the below Screenshot, we have selected the size in mb.
+
+ 
+
+
+
+ 
+
+You can see that our backdoor.exe file size has been increased.
+
+ 
+
+
+
+ 
